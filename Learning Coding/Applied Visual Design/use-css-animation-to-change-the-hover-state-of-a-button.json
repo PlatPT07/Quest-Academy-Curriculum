@@ -1,0 +1,1 @@
+{"index.html":"<style>\n\tbutton {\n\t\tborder-radius: 5px;\n\t\tcolor: white;\n\t\tbackground-color: #0F5897;\n\t\tpadding: 5px 10px 8px 10px;\n\t}\n\n\tbutton:hover {\n\t\tanimation-name: background-color;\n\t\tanimation-duration: 500ms;\n\t}\n\n\t@keyframes background-color {\n\t\t100% {\n\t\t\tbackground-color: #4791d0;\n\t\t}\n\t}\n</style>\n\n<button>Register</button>"}

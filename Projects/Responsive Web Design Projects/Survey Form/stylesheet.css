@@ -1,0 +1,44 @@
+.container {
+display: block;
+justify-content: center;
+align-items: center;
+}
+
+#title {
+font-size: 50px; 
+text-align: center;
+}
+
+#description {
+font-size: 30px;
+text-align: center;
+}
+
+#survey-form {
+background-color: aquamarine;
+margin-left: 25%;
+margin-right: 25%;
+}
+
+#name {
+display: block;
+}
+
+#email {
+display: block;
+}
+
+#number {
+display: block;
+}
+
+#dropdown {
+display: block;
+}
+
+.radio, 
+.checkbox {
+display: block;
+}
+
+

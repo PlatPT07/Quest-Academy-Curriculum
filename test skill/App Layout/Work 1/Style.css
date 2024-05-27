@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap');
+
+body {
+  font-family: "Karla", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 200;
+  font-style: normal;
+}
+
+
+.container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.frame {
+    border-color: black;
+    border-style: solid;
+    border-width: 3px;
+    background-color: white;
+    width: 400px;
+    height: 800px;
+}
+
+
+.green-gradient {
+    background: linear-gradient(165deg, rgb(168, 238, 130), rgb(78, 232, 26));
+    border-color: limegreen;
+    border-radius: 0 0 60px 60px;
+    width: 400px;
+    height: 300px;
+    position: fixed;
+}
+
+.hello {
+color: white;
+line-height: 5px;
+}
+
+.icon {
+
+
+}
+
+.search-bar {
+width: 100%;
+height: 40px;
+background: linear-gradient(165deg, rgb(79, 162, 40), rgb(100, 223, 59));
+color: white;
+border-radius: 10px;
+}
+
+.list1 {
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(1, 1fr);
+grid-gap: 20px;
+padding-top: 20px;
+}
+
+.list2 {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-gap: 20px;
+padding-top: 20px;
+}
+
+.buttons {
+width: 100%;
+height: 75px;
+border-radius: 10px;
+border-color: rgb(255, 255, 255);
+background-color: rgb(255, 255, 255);
+border-style: solid;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.box1 {
+margin: 50px 20px 20px 20px;
+}
+
+.ads {
+max-width: 100%;
+height: auto;
+border-radius: 10px;
+margin-top: -20px;
+}
+
+.promotion-text {
+margin-top: 50px;
+color:black;
+}
+
+.ads1 {
+display: grid;
+max-width: 100%;
+height: auto;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-gap: 20px;
+margin-top: -10px;
+}
+
+.div-menu {
+position: fixed;
+}
+
+.menu {
+display: grid;
+grid-template-columns: repeat(4, 1fr);
+grid-template-rows: 1fr;
+grid-gap: 20px;
+margin-top: -70px
+}
+
+ul {
+    list-style: none;
+}
