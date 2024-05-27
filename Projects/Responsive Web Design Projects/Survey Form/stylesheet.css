@@ -38,7 +38,16 @@ display: block;
 
 .radio, 
 .checkbox {
+display: inline-block;
+}
+
+.form-box {
 display: block;
+margin-top: 20px;
+}
+
+label {
+display: flex;
 }
 
 
