@@ -2,77 +2,79 @@
 <html>
 
 <head>
-    <link rel="stylesheet" href="stylesheet.css"></link>
+    <link rel="stylesheet" href="stylesheet.css">
+    </link>
 </head>
 
 <body>
     <div class="container">
-        <h1 id="title">Quest academy</h1>
-        <p id="description">Thank you for taking the time to help us improve the platform</p>
-        <form id="survey-form">
-            <div class="form">
-                <div class="from-box">
-                    <label for="Name" id="name-label">Name</label>
-                    <input placeholder="Enter Your Name" type="text" required id="name">
-                </div>
-                <div class="from-box">
-                    <label for="Email" id="email-label">Email</label>
-                    <input placeholder="Enter Your Email" type="email" required id="email">
-                </div>
-                <div class="from-box">
-                    <label for="" id="number-label">Age(optional)</label>
-                    <input placeholder="Age" type="number" min="18" max="99" id="number">
-                </div>
-                <div class="from-box">
-                    <label for="">Which option best describes your current role?</label>
-                    <select placeholder="select current role" id="dropdown">
-                        <option>Student</option>
-                        <option>Full Time Job</option>
-                        <option>Full Time Learner</option>
-                        <option>Prefer not say</option>
-                        <option>Others</option>
-                    </select>
-                </div>
-                <div class="from-box">
-                    <label for="" class="radio">Would you recommend freeCodeCamp to a friend?</label>
-                    <label><input name="value" type="radio" value="Definitely">Definitely</label>
-                    <label><input name="value" type="radio" value="Maybe" checked>Maybe</label>
-                    <label><input name="value" type="radio" value="Not Sure">Not Sures</label>
-                </div>
-                <div class="from-box">
-                    <label for="">What is your favorite feature of freeCodeCamp?</label>
-                    <select placeholder="select an option">
-                        <option>Challenges</option>
-                        <option>Projects</option>
-                        <option>Community</option>
-                        <option>Open Source</option>
-                    </select>
-                </div>
-                <div class="from-box">
-                    <label for="" class="checkbox">What would you like to see improved? (Check all that apply)</label>
-                    <input name="check" type="checkbox" value="Front-end Projects">Front-end Projects
-                    <input name="check" type="checkbox" value="Back-end Projects">Back-end Projects
-                    <input name="check" type="checkbox" value="Data Visualization">Data Visualization
-                    <input name="check" type="checkbox" value="Challenges">Challenges
-                    <input name="check" type="checkbox" value="Open Source Community">Open Source Community
-                    <input name="check" type="checkbox" value="Gitter help rooms">Gitter help rooms
-                    <input name="check" type="checkbox" value="Videos">Videos
-                    <input name="check" type="checkbox" value="City Meetups">City Meetups
-                    <input name="check" type="checkbox" value="Wiki">Wiki
-                    <input name="check" type="checkbox" value="Forum">Forum
-                    <input name="check" type="checkbox" value="Additional Courses">Additional Courses
-                </div>
-                <div class="from-box">
-                    <p>Any comments or suggestions?</p>
-                    <textarea>Enter your comment here...</textarea>
-                </div>
-                <div class="from-box">
-                    <button type="submit" id="submit">Submit</button>
-                </div>
-        </form>
+        <div class="color">
+            <h1 id="title">Quest academy</h1>
+            <p id="description">Thank you for taking the time to help us improve the platform</p>
+            <form id="survey-form">
+                <div class="form">
+                    <div class="from-box">
+                        <label for="Name" id="name-label">Name</label>
+                        <input placeholder="Enter Your Name" type="text" required id="name" class="css-input">
+                    </div>
+                    <div class="from-box">
+                        <label for="Email" id="email-label">Email</label>
+                        <input placeholder="Enter Your Email" type="email" required id="email" class="css-input">
+                    </div>
+                    <div class="from-box">
+                        <label for="" id="number-label">Age(optional)</label>
+                        <input placeholder="Age" type="number" min="18" max="99" id="number" class="css-input">
+                    </div>
+                    <div class="from-box">
+                        <label for="">Which option best describes your current role?</label>
+                        <select placeholder="select current role" id="dropdown" class="css-input">
+                            <option>Student</option>
+                            <option>Full Time Job</option>
+                            <option>Full Time Learner</option>
+                            <option>Prefer not say</option>
+                            <option>Others</option>
+                        </select>
+                    </div>
+                    <div class="from-box">
+                        <label for="" class="radio">Would you recommend freeCodeCamp to a friend?</label>
+                        <label><input name="value" type="radio" value="Definitely">Definitely</label>
+                        <label><input name="value" type="radio" value="Maybe" checked>Maybe</label>
+                        <label><input name="value" type="radio" value="Not Sure">Not Sures</label>
+                    </div>
+                    <div class="from-box">
+                        <label for="">What is your favorite feature of freeCodeCamp?</label>
+                        <select placeholder="select an option" class="css-input">
+                            <option>Challenges</option>
+                            <option>Projects</option>
+                            <option>Community</option>
+                            <option>Open Source</option>
+                        </select>
+                    </div>
+                    <div class="from-box">
+                        <label for="" class="checkbox">What would you like to see improved? (Check all that
+                            apply)</label>
+                        <input name="check" type="checkbox" value="Front-end Projects">Front-end Projects
+                        <input name="check" type="checkbox" value="Back-end Projects">Back-end Projects
+                        <input name="check" type="checkbox" value="Data Visualization">Data Visualization
+                        <input name="check" type="checkbox" value="Challenges">Challenges
+                        <input name="check" type="checkbox" value="Open Source Community">Open Source Community
+                        <input name="check" type="checkbox" value="Gitter help rooms">Gitter help rooms
+                        <input name="check" type="checkbox" value="Videos">Videos
+                        <input name="check" type="checkbox" value="City Meetups">City Meetups
+                        <input name="check" type="checkbox" value="Wiki">Wiki
+                        <input name="check" type="checkbox" value="Forum">Forum
+                        <input name="check" type="checkbox" value="Additional Courses">Additional Courses
+                    </div>
+                    <div class="from-box">
+                        <p>Any comments or suggestions?</p>
+                        <textarea class="css-input">Enter your comment here...</textarea>
+                    </div>
+                    <div class="from-box">
+                        <button type="submit" id="submit">Submit</button>
+                    </div>
+            </form>
+        </div>
     </div>
-    </div>
-
 </body>
 
 </html>

@@ -4,6 +4,12 @@ justify-content: center;
 align-items: center;
 }
 
+.color {
+    background-color: antiquewhite;
+    margin: 0 30% 0 30%;
+    padding-bottom: 170px;
+}
+
 #title {
 font-size: 50px; 
 text-align: center;
@@ -15,9 +21,10 @@ text-align: center;
 }
 
 #survey-form {
-background-color: aquamarine;
+background-color: azure;
 margin-left: 25%;
 margin-right: 25%;
+padding-bottom: 15%
 }
 
 #name {
@@ -43,11 +50,25 @@ display: inline-block;
 
 .form-box {
 display: block;
-margin-top: 20px;
 }
 
 label {
 display: flex;
+line-height: 30px;
 }
 
-
+.css-input {
+    padding: 5px;
+    font-size: 11px;
+    border-width: 0px;
+    border-color: #CCCCCC;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-style: solid;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px rgba(66,66,66,.75);
+    text-shadow: 1px 0px 10px rgba(66,66,66,.53);
+}
+.css-input:focus {
+    outline:none;
+}
