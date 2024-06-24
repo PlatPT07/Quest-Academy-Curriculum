@@ -1,72 +1,128 @@
-.left {
-    display: flex;
+body {
+    font-family: "Playwrite DE Grund", cursive;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    font-size: medium;
 }
 
-.pfp {
-    border-width: 80px;
-    border-radius: 100%;
-    border-style: none;
-    max-height: 50px;
+.profile-img {
+    border-radius: 200%;
+    width: 150px;
     padding: 20px;
+}
+
+.profile-name {
+    font-size: 22px;
 }
 
 #navbar {
     position: fixed;
     top: 0;
     left: 0;
-    background-color: antiquewhite;
+    background-color: rgb(243, 252, 255);
     height: 100%;
-    width: 200px;
+    width: 300px;
+    padding: 10px;
     text-align: center;
 }
 
-.name {
-    font-size: 22px;
-}
-
-li {
-    list-style: none;
-    position: relative;
-    padding-right: 18%;
-}
-
-body {
-    margin: 0;
+#navbar ul {
     padding: 0;
-    height: 100%;
+    margin: 0;
+}
+
+#navbar li {
+    list-style-type: none;
+    margin: 10px 0;
 }
 
 .content {
-    width: calc(100% - 220px);
+    width: calc(100% - 300px);
+    top: 0;
     box-sizing: border-box;
-    margin-left: 220px;
+    margin-left: 300px;
     padding: 0;
 }
 
 section {
     height: 100vh;
-    padding: 0;
+    padding: 20px;
     margin: 0;
     box-sizing: border-box;
-    background-color: antiquewhite;
+    background-color: rgb(236, 246, 255);
 }
 
-#welcome-section{
-
+.home-box {
+    background-color: rgba(0, 0, 0, 0.4);
+    width: 500px;
+    height: fit-content;
+    box-sizing: border-box;
+    color: aliceblue;
+    text-align: center;
+    margin: 350px auto;
+    padding: 5px;
+ 
+    
 }
 
-.about {
-
+.home-button {
+    padding: 10px 30px;
+    width: fit-content;
+    background-color: transparent;
+    color: aliceblue;
+    border-color: aliceblue;
 }
 
-.services {
-
+#welcome-section {
+    background-image: url("https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/c897ee06-eed4-4abb-b875-a30b63e061ea/ddc60af-5b680d72-6dd4-4c28-bb8c-6f064c703472.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7InBhdGgiOiJcL2ZcL2M4OTdlZTA2LWVlZDQtNGFiYi1iODc1LWEzMGI2M2UwNjFlYVwvZGRjNjBhZi01YjY4MGQ3Mi02ZGQ0LTRjMjgtYmI4Yy02ZjA2NGM3MDM0NzIucG5nIn1dXSwiYXVkIjpbInVybjpzZXJ2aWNlOmZpbGUuZG93bmxvYWQiXX0.-SWnihbBbIl7TDw4ai4rbVqqhAPDanbdq943TXNontw");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+.skill-box{
+    display: flex;
 }
 
-.skills {
-
+.topic {
+    padding: 20px;
 }
 
-.education {
-
+.about-me {
+    border: 0px;
+    width: 1000px;
+    padding-left: 20px;
 }
+
+.Future-career {
+    border: 0px;
+    border-color: aliceblue;
+    border-style: solid;
+    margin: 40px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 600px;
+    height: 400pxpx;
+    flex:1; cursor: pointer;
+}
+
+.Future-career:hover{
+    flex:3;
+    border: 0px;
+    border-color: aliceblue;
+    border-style: solid;
+    margin: 40px;
+    box-shadow: 0px 0px 5px 0px;
+    width: 600px;
+    height: fit-content;
+}
+
+.future-career-content {
+    font-size: medium;
+    padding-left: 30px;
+    padding-bottom: 10px;
+}
+
+.Future-detail{
+    margin:10px ;
+}
+
