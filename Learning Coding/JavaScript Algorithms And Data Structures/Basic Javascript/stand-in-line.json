@@ -1,0 +1,1 @@
+{"index.js":"function nextInLine(arr, item) {\n  // Your code here\n  \n  arr.push(item);\n  var remove = arr.shift();\n  return remove;\n\n  \n  \n  \n  \n  \n  // Change this line\n}\n\n// Test Setup\nvar testArr = [1,2,3,4,5];"}
