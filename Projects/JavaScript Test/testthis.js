@@ -1,5 +1,5 @@
 var SpaceShuttle = function(targetPlanet){
-    this.targetPlanet = targetPlanet;
+    this.targetPlanet = 1;
   }
   var zeus = new SpaceShuttle('Jupiter');
   SpaceShuttle();
