@@ -1,0 +1,1 @@
+{"index.js":"\n\n\nfunction confirmEnding(str, target) {\n  // Check if the substring from the end of `str` matches `target`\n  return str.substring(str.length - target.length) === target;\n}\n"}

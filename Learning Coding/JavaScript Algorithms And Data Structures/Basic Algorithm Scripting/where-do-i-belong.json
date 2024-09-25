@@ -1,0 +1,1 @@
+{"index.js":"function getIndexToIns(arr, num) {\narr.sort((a, b) => a - b);\n\nfor (let i = 0; i < arr.length; i++) {\n  if (arr[i] >= num)\n   return i;\n}\n  return arr.length;\n}\n\ngetIndexToIns([40, 60], 50);"}
