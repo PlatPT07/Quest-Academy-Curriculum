@@ -1,0 +1,1 @@
+{"index.js":"function truthCheck(collection, pre) {\n  // Create a counter to check how many are true.\n  let counter = 0;\n  // Check for each object\n  for (let c in collection) {\n    // If it is has property and value is truthy\n    if (collection[c].hasOwnProperty(pre) && Boolean(collection[c][pre])) {\n      counter++;\n    }\n  } return counter == collection.length;\n}"}

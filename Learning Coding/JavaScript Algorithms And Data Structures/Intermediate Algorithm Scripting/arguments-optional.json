@@ -1,0 +1,1 @@
+{"index.js":"function addTogether() {\n  const [first, second] = arguments;\n\n  if (typeof (first) === \"number\") {\n    \n    if (typeof (second) === \"number\") return first + second;\n    if(arguments.length === 1) return (second) => addTogether(first, second); }\n}"}

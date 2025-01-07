@@ -1,0 +1,1 @@
+{"index.js":"function dropElements(arr, func) {\n  let result = arr.length;\n  for (let i = 0; i < result; i++) {\n    if (func(arr[0])) {\n      break;\n    } else {\n      arr.shift();\n    }\n  }\n  return arr;\n}\n\ndropElements([1, 2, 3], function(n) {return n < 3; });"}

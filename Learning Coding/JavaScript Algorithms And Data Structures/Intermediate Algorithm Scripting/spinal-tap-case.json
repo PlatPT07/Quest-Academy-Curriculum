@@ -1,0 +1,1 @@
+{"index.js":"function spinalCase(str) {\n\n  str = str.replace(/([a-z])([A-Z])/g, \"$1 $2\");\n  // Split on whitespace and underscores and join with dash\n  return str\n    .toLowerCase()\n    .split(/(?:_| )+/)\n    .join(\"-\");\n}\n\nspinalCase('This Is Spinal Tap');"}
